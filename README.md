@@ -32,6 +32,7 @@ sse.onMessage = new EventSource.Listener() {
         GWT.log("message: " + event.data);
     }
 };
+// Custom listener
 sse.addEventListener("status", new EventSource.Listener() {
     @Override
     public void function(org.cleanlogic.sse.Event event) {
