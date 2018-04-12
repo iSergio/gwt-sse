@@ -11,7 +11,7 @@
     <name>GWT Server Event Source(SSE or SourceEvent) Wrapper</name>
     <properties>
         <!-- GWT -->
-        <gwt.version>2.8.0</gwt.version>
+        <gwt.version>2.8.2</gwt.version>
         <gwt.style>OBF</gwt.style>
         
         <!-- Maven -->
@@ -110,7 +110,7 @@
         <dependency>
             <groupId>com.google.jsinterop</groupId>
             <artifactId>jsinterop-annotations</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 </project>
